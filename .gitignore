@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Telegram Token ###
+src/main/resources/application.properties
