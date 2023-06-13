@@ -1,3 +1,35 @@
 <configuration>
+<!--
+    <property name="HOME_LOG" value="/Users/Mein/app.log"/>
+
+    <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${HOME_LOG}</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>/Users/Mein/app.log/app.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            &lt;!&ndash; each archived file, size max 10MB &ndash;&gt;
+            <maxFileSize>10MB</maxFileSize>
+            &lt;!&ndash; total size of all archive files, if total size > 20GB, it will delete old archived file &ndash;&gt;
+            <totalSizeCap>1GB</totalSizeCap>
+            &lt;!&ndash; 60 days to keep &ndash;&gt;
+            <maxHistory>60</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.weatherbot.WeatherBot" level="debug" additivity="false">
+        <appender-ref ref="FILE-ROLLING"/>
+    </logger>
+
+    <root level="error">
+        <appender-ref ref="FILE-ROLLING"/>
+    </root>
+
+    <root level="info">
+        <appender-ref ref="FILE-ROLLING"/>
+    </root>-->
 
 </configuration>
