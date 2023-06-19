@@ -15,5 +15,4 @@ public class Respond {
         }
         return temp_info;
     }
-
 }

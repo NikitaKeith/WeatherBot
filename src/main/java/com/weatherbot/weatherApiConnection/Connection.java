@@ -25,5 +25,4 @@ public class Connection {
         }
         return content.toString();
     }
-
 }
