@@ -2,8 +2,9 @@
 
 to run the program, you need 
 
-1 - create a file application.properties with path
-src/main/resources/application.properties
+1 - create a file application.properties with path<br />
+src/main/resources/application.properties<br />
+(the file was deleted for privacy reasons)<br />
 
 and add the following data
 
