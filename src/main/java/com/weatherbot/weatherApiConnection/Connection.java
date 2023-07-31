@@ -8,7 +8,7 @@ import java.net.URLConnection;
 public class Connection {
 
     static String getUrlContent(String urlAddress) {
-        StringBuffer content = new StringBuffer();
+        StringBuilder content = new StringBuilder();
         try {
             URL url = new URL(urlAddress);
             URLConnection urlConnection = url.openConnection();

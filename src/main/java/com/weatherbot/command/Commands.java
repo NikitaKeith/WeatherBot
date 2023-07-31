@@ -1,5 +1,5 @@
 package com.weatherbot.command;
 
-public enum CommandContainer {
-
+public enum Commands {
+    START
 }

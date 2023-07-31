@@ -4,9 +4,11 @@ import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
+@EnableScheduling
 @Configuration
-@Data //добавляет методы get and set. Поэтому их не надо создавать
+@Data
 @PropertySource("application.properties") //источник значений
 public class BotConfig {
     @Value("${bot.name}")
